@@ -1,12 +1,6 @@
-/* 
-    OBJETIVO - Quando clicarmos no botão temos que mostrar a imagem de fundo correspondente */
-
-
-//- passo 1 - dar um jeito de pegar o elemento HTML dos botões
 const botoesCarrossel = document.querySelectorAll('.botao');
 const imagens = document.querySelectorAll('.imagem')
 
-//- passo 2 - dar um jeito de identificar o clique do usuário no botão
 botoesCarrossel.forEach((botao, indice) => {
     botao.addEventListener('click', () => {
  
@@ -40,7 +34,6 @@ function desativarBotaoSelecionado() {
     botaoSelecionado.classList.remove('selecionado');
 }
 
-/* alert('Olá'); esse é um comentário, vc também pousar // para comentario mas so funciona por linha */
 
 
 
